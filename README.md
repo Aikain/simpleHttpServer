@@ -5,7 +5,7 @@ Simple way to set up website with docker.
 
     docker run --name my_simplehttpserver -p 8080:80 -v /home/aikain/www:/var/www -d aikain/simplehttpserver:0.1
 
-Just change port (8080) and volume (/home/aikain/www) to correct with you setup.
+Just change port (8080) and volume (/home/aikain/www) to match your setup.
 
 You can stop container:
 
@@ -34,7 +34,7 @@ Make docker-compose.yml-file with content:
         volumes:
           - "/srv/aikain/www:/var/www"
 
-Change port (8080) and volume (/home/aikain/www) to correct with you setup.
+Change port (8080) and volume (/home/aikain/www) to match your setup.
 
 Build and run with docker-compose:
 
